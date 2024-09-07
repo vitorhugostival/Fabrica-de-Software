@@ -1,0 +1,69 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('Foto.de.fundo1.jpg') no-repeat center center / cover;
+    background-attachment: fixed; 
+    min-height: 100vh;
+    font-size: 1.1rem;
+    color: #333;
+    background-color: #f9f9f9;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.6;
+    margin: 20px; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2{
+    color: #111;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+p {
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+img{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh; 
+    max-width: 100%;         
+    height: auto; 
+    text-align: center;
+}
+
+header {
+    background-color: white(103, 112, 100, 0.979); 
+    color: white; 
+    border: 2px solid white; 
+    border-radius: 10px; 
+    padding: 8px 8px; 
+    
+}
+
+h1{
+ color:black;
+}
+
+
+
+footer {
+    background-color: black; 
+    color: white;
+    padding: 10px; 
+    border: 2px solid white; 
+    border-radius: 10px; 
+    text-align: center; 
+}
+
+
